@@ -1,24 +1,8 @@
-"""for i in range(500): # this "for" loop will repeat these functions 500 times
-    turtle.speed(150)
-    forward(i)
-    left(91)
-
-"""
-
 import turtle
 from turtle import Turtle, done, penup
 from random import randint
 from typing import Tuple
 
-"""Summary: This Program draws a lovely scene with the turtle function."""
-
-"""Description: This program draws a mountain scenery with random sized mountains, 
-randomly located trees, clouds, and lilypads and has a little pond and 
-a big sun setting behind the mountains. The functions do look a little complicated, 
-they are encapsulated similar to classes at this point, but i didnt want to implement 
-classes because we havent covered the topic yet."""
-
-__author__ = "730389459"
 
 def draw_sun() -> None:
     """Draws the sun."""
