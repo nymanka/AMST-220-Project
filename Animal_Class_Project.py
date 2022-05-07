@@ -415,33 +415,21 @@ def draw_shrub(x: int):
     
     def teleport(a_turtle: Turtle, x: float, y: float) -> None:
         a_turtle.penup()
-
         a_turtle.home()
-
         a_turtle.goto(x, y)
-
         a_turtle.pendown()
     
     def crecent(a_turtle: Turtle, size: float) -> None:
-
         """Makes a crecent shape."""
-
         a_turtle.begin_fill()
-
         a_turtle.circle(size, 180)
-
         a_turtle.left(120)
-
         a_turtle.circle(-size * 2, 60)
-
         a_turtle.end_fill()
 
-    
 
     def shrub(a_turtle: Turtle, x: float, y: float, size: float, check: int) -> None:
-
         """Makes a tiny grass plant."""
-
         if check == 0:
             a_turtle.color("#86DC3D")
         else:
