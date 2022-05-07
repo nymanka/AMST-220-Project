@@ -3,7 +3,6 @@ from turtle import Turtle, done, penup
 from random import randint
 from typing import Tuple
 
-
 def draw_sun() -> None:
     """Draws the sun."""
     sun = turtle.Turtle() 
